@@ -20,6 +20,7 @@ namespace FooderosSpammer
             InitializeComponent();
             textBox1.PlaceholderText = "501234567";
             textBox2.Text = "10";
+            button2.Enabled = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace FooderosSpammer
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            stop = true;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -56,6 +57,7 @@ namespace FooderosSpammer
                 if (stop)
                 {
                     stop = false;
+                    button2.Enabled = false;
                     break;
                 }
                 var response = await client.PostAsync("https://api.fooderos.com/api/v1/send/otp", content);
@@ -66,6 +68,7 @@ namespace FooderosSpammer
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button2.Enabled = true;
             string number = textBox1.Text;
             int count = int.Parse(textBox2.Text);
             label4.Text = "" + count;
