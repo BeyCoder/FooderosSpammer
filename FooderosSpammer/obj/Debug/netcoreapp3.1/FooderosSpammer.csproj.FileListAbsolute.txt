@@ -1,0 +1,15 @@
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\bin\Debug\netcoreapp3.1\FooderosSpammer.exe
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\bin\Debug\netcoreapp3.1\FooderosSpammer.deps.json
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\bin\Debug\netcoreapp3.1\FooderosSpammer.runtimeconfig.json
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\bin\Debug\netcoreapp3.1\FooderosSpammer.runtimeconfig.dev.json
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\bin\Debug\netcoreapp3.1\FooderosSpammer.dll
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\bin\Debug\netcoreapp3.1\FooderosSpammer.pdb
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.csproj.AssemblyReference.cache
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.Form1.resources
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.csproj.GenerateResource.cache
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.AssemblyInfoInputs.cache
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.AssemblyInfo.cs
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.csproj.CoreCompileInputs.cache
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.dll
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.pdb
+C:\Users\Abdu_9urb\source\repos\FooderosSpammer\FooderosSpammer\obj\Debug\netcoreapp3.1\FooderosSpammer.genruntimeconfig.cache
