@@ -39,12 +39,12 @@ namespace FooderosSpammer
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Логи = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.Options.SuspendLayout();
             this.Логи.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -153,24 +153,24 @@ namespace FooderosSpammer
             this.groupBox1.Text = "Настройки";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label3
+            // label7
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 15);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Количество:";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(118, 139);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 42);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "0";
             // 
-            // label4
+            // label8
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(118, 19);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 42);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "0";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 150);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 15);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "С ошибкой:";
             // 
             // label5
             // 
@@ -191,24 +191,24 @@ namespace FooderosSpammer
             this.label6.TabIndex = 5;
             this.label6.Text = "Отправлено";
             // 
-            // label7
+            // label4
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(118, 139);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 42);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "0";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(118, 19);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 42);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "0";
             // 
-            // label8
+            // label3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 150);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 15);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "С ошибкой:";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 15);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Количество:";
             // 
             // Form1
             // 
@@ -220,8 +220,9 @@ namespace FooderosSpammer
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Options);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Fooderos Spammer";
             this.Options.ResumeLayout(false);
             this.Options.PerformLayout();
             this.Логи.ResumeLayout(false);

