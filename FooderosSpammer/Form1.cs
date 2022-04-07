@@ -64,6 +64,8 @@ namespace FooderosSpammer
                 textBox3.Text += (i + 1) + ". " + number + " sent\r\n";
                 label5.Text = "" + ++sent;
             }
+            stop = false;
+            button2.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
